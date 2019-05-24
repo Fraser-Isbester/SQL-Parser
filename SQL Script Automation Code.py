@@ -1,6 +1,6 @@
 # Fraser Isbester 2019
 
-def parse_sql(filename):
+def parse_sql(filename) -> list:
     data = open(filename, 'r').readlines()
     stmts = []
     DELIMITER = ';'
